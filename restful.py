@@ -27,5 +27,15 @@ def addOne():
     languages.append(language)
     return jsonify({'languages': languages})
 
+
+## PUT: update
+## pass 127.0.0.1:8080/lang/java1
+## JSON {"name":"Oitroioi"}
+@app.route('/lang/<string:name>', methods=['PUT'])
+def editOne(name):
+    langs = [x for x in languages if x['name'] ==  name]
+    langs[0]['name'] = request.json['name']
+    return jsonify({'language' : langs[0]})
+
 if __name__ == '__main__':
     app.run(debug=True,port=8080)
