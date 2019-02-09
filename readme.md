@@ -1,6 +1,9 @@
 # Python API
+## restful.py is a simple Python API
 
-## Pythonic way to combine FOR loop and IF statement\
+## app.py is a simple web for routing
+
+## Pythonic way to combine FOR loop and IF statement
 ### Case 1:
 ```
 >>> a = [2,3,4,5,6,7,8,9,0]
@@ -17,3 +20,4 @@ print([x for x in xyz if x in a])
 ```
 gen = (x for x in xyz if x not in a)
 ```
+
