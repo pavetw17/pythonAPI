@@ -1,7 +1,9 @@
 # Python API
 ## restful.py is a simple Python API
 
-## app.py is a simple web for routing
+## app.py is a simple web for routing (login.html, bootstrap.min.css)
+
+## script1.py ( includes about.html, home.html)
 
 ## Pythonic way to combine FOR loop and IF statement
 ### Case 1:
