@@ -3,7 +3,7 @@
 
 ## app.py is a simple web for routing (login.html, bootstrap.min.css)
 
-## script1.py ( includes about.html, home.html)
+## script1.py ( includes main.css, about.html, home.html, and layout.html)
 
 ## Pythonic way to combine FOR loop and IF statement
 ### Case 1:
